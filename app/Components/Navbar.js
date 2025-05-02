@@ -1,12 +1,13 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-600 to-indigo-600  py-3 px-6">
+    <nav className="bg-gradient-to-r from-blue-600 to-indigo-600 py-3 px-6">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
@@ -16,31 +17,27 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Hamburger Icon for Mobile */}
+        {/* Hamburger Icon */}
         <div className="md:hidden text-2xl text-black cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <FiX /> : <FiMenu />}
         </div>
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex space-x-6 text-white text-sm font-medium">
-          <li className="hover:underline cursor-pointer">Home</li>
-          <li className="hover:underline cursor-pointer flex items-center gap-1">
-            Services <span className="text-xs">▼</span>
-          </li>
-          <li className="hover:underline cursor-pointer">Contact us</li>
-          <li className="hover:underline cursor-pointer">Privacy Policy</li>
+          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link href="/service" className="hover:underline">Services</Link></li>
+          <li><Link href="/contact" className="hover:underline">Contact us</Link></li>
+          <li><Link href="/policy" className="hover:underline">Privacy Policy</Link></li>
         </ul>
       </div>
 
       {/* Mobile Nav Links */}
       {isOpen && (
         <ul className="flex flex-col items-center mt-4 space-y-3 md:hidden text-black text-sm font-medium">
-          <li className="hover:underline cursor-pointer">Home</li>
-          <li className="hover:underline cursor-pointer flex items-center gap-1">
-            Services <span className="text-xs">▼</span>
-          </li>
-          <li className="hover:underline cursor-pointer">Contact us</li>
-          <li className="hover:underline cursor-pointer">Privacy Policy</li>
+          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link href="/service" className="hover:underline">Services</Link></li>
+          <li><Link href="/contact" className="hover:underline">Contact us</Link></li>
+          <li><Link href="/policy" className="hover:underline">Privacy Policy</Link></li>
         </ul>
       )}
     </nav>
