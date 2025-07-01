@@ -4,19 +4,18 @@ const Disclaimer = () => {
   return (
     <>
       <Head>
-        <title>Disclaimer | Geek Care Help Desk</title>
-        <meta name="description" content="Disclaimer page for Geek Care Help Desk" />
+        <title>Disclaimer | Print Hub Solution</title>
+        <meta name="description" content="Disclaimer page for Print Hub Solution" />
       </Head>
 
       <div className="bg-gradient-to-r from-blue-500 via-teal-600 to-indigo-700 min-h-screen py-12 px-6 md:px-12 pt-16">
-        {/* Increase the width by changing max-w-3xl to max-w-5xl */}
         <div className="max-w-5xl mx-auto bg-white p-8 rounded-lg shadow-md">
           <h1 className="text-3xl font-semibold text-center text-[#2563EB] mb-8">
             Disclaimer
           </h1>
           <div className="space-y-6 text-gray-700">
             <p>
-              The information provided by Geek Care Help Desk (“we,” “us,” or “our”) on
+              The information provided by Print Hub Solution (“we,” “us,” or “our”) on
               this website (the “Site”) is for general informational purposes
               only. All information on the Site is provided in good faith, and
               we make no representations or warranties of any kind, express or

@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Main Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Brand Name */}
-          <div className="text-white font-bold">Geek Care Help Desk</div>
+          <div className="text-white font-bold">Print Hub Solution</div>
 
           {/* Quick Links - Single Row */}
           <div className="flex flex-wrap justify-center gap-4">
@@ -129,7 +129,7 @@ const Footer = () => {
 
         {/* Copyright - Tiny Text */}
         <div className="mt-4 pt-3 border-t border-gray-800 text-center text-xs text-gray-500">
-          © {new Date().getFullYear()} geekcarehelpdesk. All rights reserved.
+          © {new Date().getFullYear()} Print Hub Solution. All rights reserved.
         </div>
       </div>
     </footer>

@@ -19,7 +19,7 @@ export default function TestContact() {
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="text-indigo-500 text-4xl mb-2">"</div>
             <p className="text-gray-700 text-lg italic">
-              "The great thing about geek care is that there is no deductible for replacing
+              "The great thing about Print Hub Solution is that there is no deductible for replacing
               my electronics."
             </p>
             <p className="font-bold text-indigo-600 mt-4">— Marry G., WA</p>
@@ -27,8 +27,8 @@ export default function TestContact() {
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="text-indigo-500 text-4xl mb-2">"</div>
             <p className="text-gray-700 text-lg italic">
-              "Geek care is the main reason I purchase tech products online. Every time
-              I've had to utilize my Geek care Protection Plans, it has been a positive
+              "Print Hub Solution is the main reason I purchase tech products online. Every time
+              I've had to utilize their Protection Plans, it has been a positive
               experience."
             </p>
             <p className="font-bold text-indigo-600 mt-4">— Scott R., TX</p>
@@ -77,7 +77,7 @@ export default function TestContact() {
             </div>
             <div className="space-y-6 mt-6">
               <p className="text-center text-gray-700 font-medium">
-                Instant Services Required? Have questions? Geek Care is available 24/7
+                Need instant service or have questions? Print Hub Solution is available 24/7.
               </p>
               <p className="text-center text-indigo-600 font-bold text-xl">
                 Call +1-801-880-7434
@@ -87,14 +87,14 @@ export default function TestContact() {
                 <div>
                   <p className="font-bold text-gray-800">In-Store</p>
                   <p className="text-gray-600">
-                    Contact the geek care team to get the remote support for your devices online.
+                    Contact Print Hub Solution to get remote support for your devices online.
                   </p>
                 </div>
 
                 <div>
                   <p className="font-bold text-gray-800">In Home</p>
                   <p className="text-gray-600">
-                    Get setup, tune-up, installation and diagnostic services for your products.
+                    Get setup, tune-up, installation, and diagnostic services for your products.
                   </p>
                 </div>
               </div>

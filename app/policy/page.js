@@ -4,8 +4,11 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy | Geek Care Help Desk</title>
-        <meta name="description" content="Privacy policy page for Geek Care Help Desk - Your trusted IT support partner" />
+        <title>Privacy Policy | Print Hub Solution</title>
+        <meta
+          name="description"
+          content="Privacy policy page for Print Hub Solution - Your trusted IT support partner"
+        />
       </Head>
 
       <div className="bg-gradient-to-r from-indigo-500 via-purple-600 to-blue-700 min-h-screen py-12 px-6 md:px-12 pt-16">
@@ -15,15 +18,13 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="space-y-8 text-gray-700">
             <p>
-              At Geek Care Help Desk, we prioritize your privacy and data security. This Privacy Policy explains how we collect, use, and protect your information when you use our IT support services and website. By accessing our services, you agree to the terms outlined below.
+              At Print Hub Solution, we prioritize your privacy and data security. This Privacy Policy explains how we collect, use, and protect your information when you use our IT support services and website. By accessing our services, you agree to the terms outlined below.
             </p>
 
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               Information We Collect
             </h2>
-            <p>
-              As an IT support provider, we may collect:
-            </p>
+            <p>As an IT support provider, we may collect:</p>
             <ul className="list-disc pl-6">
               <li>Contact information (name, email, phone number, company details)</li>
               <li>Technical data about your devices, systems, and network configurations</li>
@@ -35,9 +36,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               How We Use Your Information
             </h2>
-            <p>
-              We use collected information to:
-            </p>
+            <p>We use collected information to:</p>
             <ul className="list-disc pl-6">
               <li>Provide and improve our IT support services</li>
               <li>Troubleshoot and resolve technical issues</li>
@@ -50,9 +49,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               Data Security
             </h2>
-            <p>
-              We implement industry-standard security measures including:
-            </p>
+            <p>We implement industry-standard security measures including:</p>
             <ul className="list-disc pl-6">
               <li>Encryption for sensitive data transmission</li>
               <li>Secure access controls to client systems</li>
@@ -66,9 +63,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               Remote Access & Monitoring
             </h2>
-            <p>
-              For IT support services, we may:
-            </p>
+            <p>For IT support services, we may:</p>
             <ul className="list-disc pl-6">
               <li>Request temporary remote access to your systems with your consent</li>
               <li>Install monitoring tools to proactively identify issues</li>
@@ -81,9 +76,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               Information Sharing
             </h2>
-            <p>
-              We do not sell your data. We may share information with:
-            </p>
+            <p>We do not sell your data. We may share information with:</p>
             <ul className="list-disc pl-6">
               <li>Third-party vendors necessary for service delivery (with confidentiality agreements)</li>
               <li>Legal authorities when required by law</li>
@@ -93,9 +86,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               Your Rights
             </h2>
-            <p>
-              You have the right to:
-            </p>
+            <p>You have the right to:</p>
             <ul className="list-disc pl-6">
               <li>Access the personal data we hold about you</li>
               <li>Request correction of inaccurate information</li>
@@ -107,9 +98,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
               Data Retention
             </h2>
-            <p>
-              We retain service records for:
-            </p>
+            <p>We retain service records for:</p>
             <ul className="list-disc pl-6">
               <li>Active clients: Throughout service period + 5 years</li>
               <li>Inactive clients: 3 years after last service</li>
@@ -129,7 +118,7 @@ const PrivacyPolicy = () => {
             <p>
               For privacy-related inquiries, please contact our Data Protection Officer at:
               <br />
-              <span className="font-medium">privacy@geekcarehelpdesk.com</span>
+              <span className="font-medium">privacy@printhubsolution.com</span>
             </p>
 
             <p className="mt-8 text-center text-gray-600">

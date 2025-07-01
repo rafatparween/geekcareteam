@@ -12,8 +12,8 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <div className="w-30 h-18 bg-black rounded-full border-4 border-white flex flex-col justify-center items-center text-white font-bold text-sm leading-none">
-            <span className="text-white">Geek</span>
-            <span className="text-xs font-normal">CareHelpDesk</span>
+            <span className="text-white">Print</span>
+            <span className="text-xs font-normal">Hub Solution</span>
           </div>
         </div>
 

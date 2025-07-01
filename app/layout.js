@@ -7,8 +7,8 @@ import Footer from './Components/Footer';
 const roboto = Roboto({ subsets: ['latin'], weight: ['400'] });
 
 export const metadata = {
-  title: ' geekcarehelpdesk',
-  description: ' geekcarehelpdesk',
+  title: ' Print Hub Solution',
+  description: ' Print Hub Solution',
 };
 
 export default function RootLayout({ children }) {
